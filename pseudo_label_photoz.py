@@ -16,6 +16,7 @@ from sklearn import neighbors, neural_network, preprocessing
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_absolute_error, median_absolute_error
 
 import xgboost as xgb
 import lightgbm as lgb
